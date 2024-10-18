@@ -1,6 +1,7 @@
-#Data Initialization
 import numpy as np
+import matplotlib.pyplot as plt
 
+#Data Initialization
 x_train = np. array ([1000 , 1500 , 2000 , 2200 , 2500 , 4500 , 5000 ,
 5500])
 y_train = np. array ([100 , 120 , 150 , 180 , 210 , 400 , 450 , 480])
@@ -18,8 +19,6 @@ predictions=compute_model_output(x_train,w,b)
 print(f"Predictions: {predictions}")
 
 #Visualization
-import matplotlib.pyplot as plt
-
 plt.figure(figsize=(10, 6))
 plt.scatter(x_train, y_train, marker='x', c='r', label='Data points')
 plt.plot(x_train, predictions, c='b', label='Linear model')
