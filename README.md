@@ -6,3 +6,4 @@ The primary objectives of this laboratory:
   2. Explore the effets of weight (w) and bias (b) on model predictions
   3. Visualize the relationship between input features and target variables
   4. Make predictions using the implemented model
+  5. Implement the Cost Function
